@@ -35,6 +35,9 @@ class newrelic_plugins::params {
   $example_version = '1.0.1'
   $example_download_baseurl = 'https://github.com/newrelic-platform/newrelic_example_plugin/archive/release'
 
+  $disk_monitor_version = '0.1.0'
+  $disk_monitor_download_baseurl = 'https://github.com/HappyR/NewRelic-Disk-Monitor-plugin/archive/release'
+
   $mysql_version = '1.2.0'
   $mysql_download_baseurl = 'https://github.com/newrelic-platform/newrelic_mysql_java_plugin/raw/master/dist/newrelic_mysql_plugin'
   $mysql_java_options = '-Xmx128m'
